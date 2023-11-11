@@ -1,0 +1,449 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="Mon, 06 Jan 1990 00:00:01 GMT">
+    <meta name="language" content="pt-br">
+    <meta name="author" content="Grupo Mar Virtual - www.grupomarvirtual.com.br">
+    <meta name="robots" content="index, follow">
+    <meta name="title" content="Instituto de Planejamento e Promoção em Comércio Exterior - IPEEX">
+    <meta name="description" content="Estrutura completa para atender as necessidades do seu negócio no exterior: Certificado de Origem, Declaração de Livre Venda, Declaração de Exclusividade, Seguro Internacional, Internacionalização de Empresas, Assessoria Aduaneira Internacional, Tradução e Logística Internacional.">
+    <meta name="keywords" content="IPPEX, Sistema Ippex, Instituto de Planejamento e Promoção em Comércio Exterior, Negócio Exterior, Certificado de Origem, Declaração de Livre Venda, Declaração de Exclusividade, Seguro Internacional, Internacionalização de Empresas, Assessoria Aduaneira Internacional, Tradução, Logística Internacional, Exterior, Certificado, Declaração, Seguro, Internacionalização, Aduana, Logística, Vendas, Exclusividade, Empresas, Marca, Produto Serviço, Negócios, Comércio, Comércio Exterior, Promoção, Certificado de Origem Digital, Mercadoria, Exportação, Emissão, Restrições Comerciais, Fiscalização, Impostos, Mercado Internacional, FACIAP, Empresários, Empreendedores, Importação, Paraná, Santa Catarina, Mato Grosso do Sul, Rio de Janeiro, São Paulo, Brasil.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="csrf-token" content="gf4643TbyQSePog6t8C9iwi0C7Nz8pPCWa9oizMg">
+
+    
+    <title>IPPEX Brasil - Privacy Policy</title>
+    <script src="./site/js/app-31.js?v=2023-11-11 07:51:57" defer=""></script>
+    <script src="./recaptcha/api-1.js?hl=en" async="" defer=""></script>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="./css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="./site/css/app-31.css?v=2023-11-11 07:51:57" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+
+    <script type="text/javascript" async="" src="./js/loader-scripts/aee572ef-7a87-4666-ae52-98a2884ce091-loader.js"></script>
+    <script src="./jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(window).ready(function () {
+
+            
+            $('.btn-certificado').on('click', function () {
+                var cert_number = document.getElementById('certnumber').value;
+
+                var v = grecaptcha.getResponse();
+                if (v.length == 0) {
+                    $('#rcaptcha').text("Erro no recaptcha!");
+                    $('#rcaptcha').removeClass('d-none');
+
+                    grecaptcha.reset();
+                    return false;
+                }
+
+                fetch('/api-certificado/'+cert_number)
+                    .then((response) => {
+                        return response.json()
+                    })
+                    .then((data) => {
+                        if (data.consulta) {
+                            retorno = (data.consulta)
+
+                                                        $('#certificate').text("Valid certificate of origin!");
+                            
+                            $('#certificate').removeClass('d-none');
+
+                                                        $('#numerofatura').text("Invoice Number: " + retorno.NumeroFatura);
+                            $('#datafatura').text("Invoice Date: " + retorno.DataFatura);
+                            $('#exportador').text("Export: " + retorno.Exportador);
+                            $('#dataemissao').text("Emission Date: " + retorno.DataEmissao);
+                            
+                            $('#numerofatura').removeClass('d-none');
+                            $('#datafatura').removeClass('d-none');
+                            $('#exportador').removeClass('d-none');
+                            $('#dataemissao').removeClass('d-none');
+
+                            $('#recaptcha').addClass('d-none');
+                            $('#recaptcha').removeClass('d-flex');
+                            $('#certnumber').addClass('d-none');
+                            $('#check').addClass('d-none');
+                            $('#newcheck').removeClass('d-none');
+                            $('#rcaptcha').addClass('d-none');
+
+                        } else {
+                            retorno = (data.error)
+
+                                                        $('#certificate').text("Invalid certificate of origin");
+                                                        $('#certificate').removeClass('d-none');
+
+                            $('#recaptcha').addClass('d-none');
+                            $('#recaptcha').removeClass('d-flex');
+                            $('#certnumber').addClass('d-none');
+                            $('#check').addClass('d-none');
+                            $('#newcheck').removeClass('d-none');
+                            $('#rcaptcha').addClass('d-none');
+                        }
+                    });
+            });
+
+            //NOVA CONSULTA CERITIFICADO
+            $('.btn-certificado2').on('click', function () {
+
+                $('#certificate').addClass('d-none');
+                $('#numerofatura').addClass('d-none');
+                $('#datafatura').addClass('d-none');
+                $('#exportador').addClass('d-none');
+                $('#dataemissao').addClass('d-none');
+
+                $('#recaptcha').removeClass('d-none');
+                $('#recaptcha').addClass('d-flex');
+                $('#certnumber').removeClass('d-none');
+                $('#newcheck').addClass('d-none');
+                $('#check').removeClass('d-none');
+
+                $('#certnumber').val("");
+
+                grecaptcha.reset();
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+<div id="app">
+    <header class="header-2">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg position-relative p-0" style="width: 100%;">
+                <div class="col-12 col-lg-2 col-xl-3 text-center">
+                    <a href="home.html" style="z-index: 2; text-decoration: none !important;">
+                        <img src="./images/logo.png" class="img-fluid logo-topo">
+                    </a>
+
+                    <button class="navbar-toggler botao-menu-expander" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars" style="color: #fff !important;"></i>
+                    </button>
+                </div>
+                <div class="col-12 col-lg-10 col-xl-9">
+                    <div class="collapse navbar-collapse margem-nav-topo" id="navbarNav">
+                        <ul class="navbar-nav" style="width: 100%;">
+                            <li class="nav-item item-laranja m-5-auxiliar opacity-transparente">
+                                <a class="nav-link link-efeito-topo opacity-transparente" href="http://www.ippex.com.br/sistemacod/#Auth" target="_blank">IPPEX SYSTEM</a>
+                            </li>
+                            <li class="nav-item-verde item-verde opacity-transparente">
+                                <a class="nav-link link-efeito-topo opacity-transparente" href="validator.html">VALIDATOR</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo  opacity-transparente " href="home.html#section-benefits" data-href="https://site.ippex.com.br/en/home#section-benefits">BENEFITS</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo opacity-transparente " href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo opacity-transparente " href="blog.html">BLOG</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo opacity-transparente " href="downloads.html">DOWNLOADS</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo" href="#" data-toggle="modal" data-target="#modal-busca"><i class="fas fa-search" style="color: #FF8B00;"></i></a>
+                            </li>
+
+                            <li class="padding-bandeiras item-cinza text-center">
+                                <a class="link-efeito-topo imagem-nao-active" href="./pt/home-2.html">
+                                    <img src="./images/brazil.png">
+                                </a>
+                                <a class="link-efeito-topo imagem-active" href="home.html">
+                                    <img src="./images/england.png">
+                                </a>
+                                <a class="link-efeito-topo imagem-nao-active" href="./es/home.html">
+                                    <img src="./images/spain.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<header class="header-2-rolagem" id="aparece-rolagem" style="visibility: hidden; z-index: 0; opacity: 0; position: fixed; transition: all 0.5s ease;width: 100%;top: 0px;border-bottom: 1px #ccc solid; background-color: #fff;">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg position-relative p-0" style="width: 100%;">
+                <div class="col-12 col-lg-2 col-xl-3 text-center">
+                    <a href="home.html" style="z-index: 2;">
+                        <img src="./images/logo.png" class="img-fluid logo-topo">
+                    </a>
+
+                    <button class="navbar-toggler botao-menu-expander" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars" style="color: #fff !important;"></i>
+                    </button>
+                </div>
+                <div class="col-12 col-lg-10 col-xl-9">
+                    <div class="collapse navbar-collapse margem-nav-topo" id="navbarNav2">
+                        <ul class="navbar-nav" style="width: 100%;">
+                            <li class="nav-item item-laranja m-5-auxiliar opacity-transparente">
+                                <a class="nav-link link-efeito-topo opacity-transparente" href="http://www.ippex.com.br/sistemacod/#Auth" target="_blank">IPPEX SYSTEM</a>
+                            </li>
+                            <li class="nav-item-verde item-verde opacity-transparente">
+                                <a class="nav-link link-efeito-topo opacity-transparente" href="validator.html">VALIDATOR</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo  opacity-transparente " href="home.html#section-benefits" data-href="https://site.ippex.com.br/en/home#section-benefits">BENEFITS</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo opacity-transparente " href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo opacity-transparente " href="blog.html">BLOG</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo opacity-transparente " href="downloads.html">DOWNLOADS</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo" href="#" data-toggle="modal" data-target="#modal-busca"><i class="fas fa-search" style="color: #FF8B00;"></i></a>
+                            </li>
+
+                            <li class="padding-bandeiras item-cinza text-center">
+                                <a class="link-efeito-topo imagem-nao-active" href="./pt/home-2.html">
+                                    <img src="./images/brazil.png">
+                                </a>
+                                <a class="link-efeito-topo imagem-active" href="home.html">
+                                    <img src="./images/england.png">
+                                </a>
+                                <a class="link-efeito-topo imagem-nao-active" href="./es/home.html">
+                                    <img src="./images/spain.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="modal fade" id="modal-busca" tabindex="-1" role="dialog" aria-labelledby="modalBusca" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="background-color: transparent;">
+            <div class="modal-header" style="background-color: #fff;color: #495057;">
+                Search                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" style="color: #495057;">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="background-color: #fff;">
+
+                <form action="https://site.ippex.com.br/en/busca" method="post">
+                    <input type="hidden" name="_token" value="gf4643TbyQSePog6t8C9iwi0C7Nz8pPCWa9oizMg">                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control " id="search" name="search" placeholder="Type here what you want to find" value="" required="">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="button-busca">
+                                    Search                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <main class="main">
+        
+<section class="section-sobre-individual">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="main-title">
+                    Privacy Policy                </div>
+            </div>
+            <div class="col-10 offset-1">
+                <div class="text-institute" style="text-align: justify;">
+                                        <p>POL&Iacute;TICA DE PRIVACIDADE A presente Pol&iacute;tica de Privacidade ( &ldquo;Pol&iacute;tica&rdquo;) trata exclusivamente de dados pessoais de pessoas f&iacute;sicas (&ldquo;Usu&aacute;rio&rdquo;) que acessarem o site da Federa&ccedil;&atilde;o das Associa&ccedil;&otilde;es Comerciais e Empresariais do Estado do Paran&aacute; (&ldquo;FACIAP&rdquo;), coletados por meio de &ldquo;Chats&rdquo; dispon&iacute;veis no link www.faciap.org.br e em suas landing pages.</p>
+
+<p>Para fins de interpreta&ccedil;&atilde;o desta Pol&iacute;tica de Privacidade, s&atilde;o considerados os seguintes Termos e Defini&ccedil;&otilde;es:</p>
+
+<p><strong>Anonimiza&ccedil;&atilde;o</strong>: utiliza&ccedil;&atilde;o de meios t&eacute;cnicos razo&aacute;veis e dispon&iacute;veis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associa&ccedil;&atilde;o, direta ou indireta, a um indiv&iacute;duo;</p>
+
+<p><strong>Banco de dados</strong>: conjunto estruturado de dados pessoais, estabelecido em um ou em v&aacute;rios locais, em suporte eletr&ocirc;nico ou f&iacute;sico;</p>
+
+<p><strong>Consentimento</strong>: manifesta&ccedil;&atilde;o livre, informada e inequ&iacute;voca pela qual o titular concorda com o tratamento de seus dados pessoais para uma finalidade determinada;</p>
+
+<p><strong>Dado pessoal:</strong> informa&ccedil;&atilde;o relacionada a pessoa natural identificada ou identific&aacute;vel;</p>
+
+<p><strong>Elimina&ccedil;&atilde;o</strong>: exclus&atilde;o de dado ou de conjunto de dados armazenados em banco de dados, independentemente do procedimento empregado;</p>
+
+<p><strong>Encarregado</strong>: pessoa indicada pelo controlador e operador para atuar como canal de comunica&ccedil;&atilde;o entre o controlador, os titulares dos dados e a Autoridade Nacional de Prote&ccedil;&atilde;o de Dados (ANPD).</p>
+
+<p>&nbsp;</p>
+
+<p>FACIAP: Federa&ccedil;&atilde;o das Associa&ccedil;&otilde;es Comerciais do Estado do Paran&aacute;</p>
+
+<p>&nbsp;</p>
+
+<p>Landing Pages: Interfaces do site da FACIAP com finalidade de captura de informa&ccedil;&otilde;es para utiliza&ccedil;&atilde;o em campanhas de Marketing</p>
+
+<p>Parceiros: Filiados benem&eacute;ritos, efetivos e institucionais, parceiros comerciais e institucionais da FACIAP*i</p>
+
+<p>Tratamento de dados: toda opera&ccedil;&atilde;o realizada com dados pessoais, como as que se referem a coleta, produ&ccedil;&atilde;o, recep&ccedil;&atilde;o, classifica&ccedil;&atilde;o, utiliza&ccedil;&atilde;o, acesso, reprodu&ccedil;&atilde;o, transmiss&atilde;o, distribui&ccedil;&atilde;o, processamento, arquivamento, armazenamento, elimina&ccedil;&atilde;o, avalia&ccedil;&atilde;o ou controle da informa&ccedil;&atilde;o, modifica&ccedil;&atilde;o, comunica&ccedil;&atilde;o, transfer&ecirc;ncia, difus&atilde;o ou extra&ccedil;&atilde;o;</p>
+
+<p>Usu&aacute;rio: titular do dado, pessoa f&iacute;sica a quem se referem os dados pessoais que s&atilde;o objeto de tratamento;</p>
+
+<p>1 - OBJETIVO O presente instrumento tem como prop&oacute;sito atender os requisitos da Lei Geral de Prote&ccedil;&atilde;o de Dados &ndash; Lei 13.709/2018 (&ldquo;LGPD&rdquo;) e demais legisla&ccedil;&otilde;es, normas que versem sobre privacidade e tratamento de dados pessoais, bem como, garantir ao Usu&aacute;rio, que tenha conhecimento de como ser&aacute; realizado o tratamento sobre eventual dado pessoal que venha a ser coletado pela FACIAP, na qualidade de controladora e operadora, nos termos da LGDP.</p>
+
+<p>A FACIAP, no tratamento de dados pessoais, observar&aacute; os princ&iacute;pios da boa-f&eacute;, da finalidade, da necessidade, do livre acesso, da transpar&ecirc;ncia, da seguran&ccedil;a e preven&ccedil;&atilde;o, entre outros.</p>
+
+<p>O objetivo deste instrumento &eacute; auxiliar o Usu&aacute;rio a compreender nossos compromissos referentes a sua privacidade. Para obter maiores informa&ccedil;&otilde;es entre em contato conosco, atrav&eacute;s do email transparencia@faciap.org.br.</p>
+
+<p>Ressaltamos que o Usu&aacute;rio &eacute; livre para concordar ou n&atilde;o com nossas Polit&iacute;cas, sendo poss&iacute;vel optar pelo n&atilde;o compartilhamento de alguns dados opcionais, mas que podem interferir ou impedir o uso de alguns dos benef&iacute;cios disponibilizados na Rede de Benef&iacute;cios da FACIAP.</p>
+
+<p>&nbsp;</p>
+
+<p>2 &ndash; DIREITOS DO USU&Aacute;RIO A Lei Geral de Prote&ccedil;&atilde;o de dados tem por objetivo proteger os direitos fundamentais de liberdade e de privacidade do Usu&aacute;rio. Desta forma, a FACIAP garante:</p>
+
+<p>a) O livre acesso aos dados que o usu&aacute;rio eventualmente venha a compartilhar com a FACIAP.</p>
+
+<p>b) O direito de corre&ccedil;&atilde;o, adequa&ccedil;&atilde;o e complementa&ccedil;&atilde;o dos dados.</p>
+
+<p>c) A ado&ccedil;&atilde;o de medidas para prevenir a ocorr&ecirc;ncia de danos em virtude do tratamento dos seus dados pessoais.</p>
+
+<p>d) O direito &agrave; anonimiza&ccedil;&atilde;o, bloqueio e elimina&ccedil;&atilde;o de dados desnecess&aacute;rios ou excessivos.</p>
+
+<p>f) O direito &agrave; elimina&ccedil;&atilde;o dos dados, exceto nos casos legais em que &eacute; necess&aacute;ria a guarda dos dados, conforme descritos na lei.</p>
+
+<p>g) Direito &agrave; revoga&ccedil;&atilde;o do consentimento da utiliza&ccedil;&atilde;o dos dados. Caso receba algum email de propaganda e n&atilde;o tenha mais interesse em receber, basta clicar em &ldquo;Se desejar n&atilde;o receber mais mensagens como esta, clique aqui.&rdquo; no final do pr&oacute;prio e-mail que recebido.</p>
+
+<p>Ressaltamos que conforme previsto em no art. 18, &sect; 3&ordm; da LGDP, os direitos citados acima e outros previstos em lei ser&atilde;o exercidos mediante requerimento expresso do titular ou procurador (procura&ccedil;&atilde;o com firma reconhecida por verdadeiro do Usu&aacute;rio ou assinada com certificado digital) &agrave; FACIAP, para tanto, basta enviar um email para transparencia@faciap.org.br</p>
+
+<p>&nbsp;</p>
+
+<p>3 &ndash; TRATAMENTO DOS DADOS</p>
+
+<p>a) CONSENTIMENTO : Quando o Usu&aacute;rio, acessar o site da Faciap e/ou suas landing pages e demonstrar interesse em receber mais informa&ccedil;&otilde;es sobre nossas atividades e/ou benef&iacute;cios da Rede de Benef&iacute;cios da FACIAP, e realizar o preenchimento de alguns dados solicitados, entre ele: email, telefone, nome e outros, o far&aacute; de forma VOLUNTARIA. Caracterizando o CONSENTIMENTO livre, informado e inequ&iacute;voco para recebimento de comunicados, informa&ccedil;&otilde;es, propagandas, promo&ccedil;&otilde;es e/ou informa&ccedil;&otilde;es institucionais da FACIAP e de seus parceiros.</p>
+
+<p>O Usu&aacute;rio poder&aacute; n&atilde;o preencher alguns campos, mas fica ciente, desde j&aacute;, que o n&atilde;o preenchimento poder&aacute; acarretar preju&iacute;zo da entrega final de eventual solicita&ccedil;&atilde;o.</p>
+
+<p>b) CONTRATOS: Ressaltamos que na hip&oacute;tese de interesse em aderir aos benef&iacute;cios disponibilizados na Rede de Benef&iacute;cios da FACIAP, ser&aacute; disponibilizado um link para preenchimento de formul&aacute;rio de dados necess&aacute;rios para a contrata&ccedil;&atilde;o, entre eles: Nome, RG, CPF, estado civil, e-mail, e endere&ccedil;o, por meio da plataforma &ldquo;Contraktor&rdquo;, cujo seus termos de uso e pol&iacute;tica de privacidade encontram-se no link http://contraktor.com.br/termos-econdicoes/</p>
+
+<p>&nbsp;</p>
+
+<p>4 - FINALIDADES DO USO DOS DADOS</p>
+
+<p>a) CONSENTIMENTO: A FACIAP utilizar&aacute; os seus dados, para realizar o marketing dos benef&iacute;cios integrantes da Rede de Benef&iacute;cios da FACIAP, diretamente, ou atrav&eacute;s de parceiros. Desta forma, ao aceitar a presente pol&iacute;tica de privacidade, o Usu&aacute;rio, neste ato, autoriza expressamente a FACIAP a lhe enviar correios eletr&ocirc;nicos, malas diretas, encartes ou qualquer outro instrumento de comunica&ccedil;&atilde;o ofertando benef&iacute;cios, parcerias e campanhas relacionadas a Rede de Benef&iacute;cios da FACIAP, bem como, comunicados institucionais da FACIAP e de seus &oacute;rg&atilde;os internos ( IPPEX/ IMAFACIAP).</p>
+
+<p>b) CONTRATOS: A FACIAP ainda utilizar&aacute; seus dados para execu&ccedil;&atilde;o de contrato ou de procedimentos preliminares relacionados a contrato do qual seja parte o Usu&aacute;rio, a pedido do mesmo.</p>
+
+<p>&nbsp;</p>
+
+<p>6- COMPATILHAMENTO DOS DADOS</p>
+
+<p>O Usu&aacute;rio ao aceitar esta pol&iacute;tica, consente livre e expressamente que seus dados poder&atilde;o ser transferidos &agrave; terceiros, parceiros atuais ou futuros da FACIAP. Ressaltamos que todos os dados coletados poder&atilde;o ser compartilhados internamente, de acordo com a sua finalidade, com os departamentos financeiro, jur&iacute;dico e comercial.</p>
+
+<p>&nbsp;</p>
+
+<p>7- ARMAZENAMENTO</p>
+
+<p>A FACIAP utiliza o sistema/servidor da empresa EQUINIX DO BRASIL SOLUCOES DE TECNOLOGIA EM INFORMATICA LTDA para armazenamento de suas base de dados digitais e os bancos de dados f&iacute;sicos s&atilde;o armanezados na sede da Faciap, localizada &agrave; Rua Heitor Stockler de Fran&ccedil;a, 356, Curitiba-PR. Ressaltamos que o controlador do servidor declara que atua de acordo com a Lei Geral de Prote&ccedil;&atilde;o de dados e que garante padr&otilde;es de seguran&ccedil;a. A FACIAP conservar&aacute; o seu dado at&eacute; que seja revogado o consentimento, exceto nos casos de cumprimento de obriga&ccedil;&atilde;o legal ou regulat&oacute;ria pelo controlador.</p>
+
+<p>&nbsp;</p>
+
+<p>8 &ndash; AN&Uacute;NCIOS DE TERCEIROS</p>
+
+<p>A FACIAP poder&aacute; a vir apresentar an&uacute;ncios de terceiros e outros conte&uacute;dos com links que remeta a site de terceiros contudo, embora a FACIAP tenha um r&iacute;gido crit&eacute;rio de firmar parcerias apenas com empresas que cumprem o disposto na lei geral de prote&ccedil;&atilde;o de dados, n&atilde;o &eacute; poss&iacute;vel controlar e nem ser responsabilizada por pr&aacute;ticas de privacidade de terceiros. Se clicar em algum link de terceiros, o usu&aacute;rio fica ciente de que n&atilde;o estar&aacute; mais sujeita as politicas de privacidade da FACIAP.</p>
+
+<p>&nbsp;</p>
+
+<p>9 - DADOS SENS&Iacute;VEIS</p>
+
+<p>A FACIAP n&atilde;o coleta dados sens&iacute;veis e/ou discriminat&oacute;rio, bem como, ressalta que o acesso e a utiliza&ccedil;&atilde;o do site da FACIAP e suas landing pages &eacute; destinada aos usu&aacute;rios maiores de 18 anos e/ou com capacidade civil.</p>
+
+<p>&nbsp;</p>
+
+<p>10 &ndash; RESOLU&Ccedil;&Atilde;O DE DISPUTAS</p>
+
+<p>A FACIAP adota medidas de seguran&ccedil;a, t&eacute;cnicas e administrativas aptas para proteger os dados do Usu&aacute;rio de acessos n&atilde;o autorizados e de situa&ccedil;&otilde;es acidentais ou il&iacute;citas de destrui&ccedil;&atilde;o, perda, altera&ccedil;&atilde;o, comunica&ccedil;&atilde;o ou qualquer forma de tratamento inadequado ou il&iacute;cito, contudo, embora todos os cuidados tomados pela FACIAP, caso haja algum conflito referente as presentes pol&iacute;ticas, a FACIAP coloca &agrave; sua disposi&ccedil;&atilde;o a C&acirc;mara de Media&ccedil;&atilde;o e Arbitragem do Instituto de Media&ccedil;&atilde;o e Arbitragem da Faciap &ndash; IMAFACIAP para resolu&ccedil;&atilde;o de qualquer conflito oriundo das presentes pol&iacute;tcas de privacidade. Bastando o usu&aacute;rio acessar o link www.imafaciap.org.br &gt; Negocie Aqui.</p>
+
+<p>&nbsp;</p>
+
+<p>11 &ndash; DISPOSI&Ccedil;&Otilde;ES FINAIS</p>
+
+<p>Eventualmente a FACIAP poder&aacute; alterar estas politicas, para tanto, o USU&Aacute;RIO ser&aacute; comunicado atrav&eacute;s do seu e-mail cadastrado e estar&aacute; dispon&iacute;vel no site da FACIAP. Caso haja d&uacute;vidas quanto estas pol&iacute;ticas e/ou tratamento de dados, fale com o Encarregado da FACIAP, atrav&eacute;s do e-mail transparencia@faciap.org.br .</p>
+
+<p>&nbsp;</p>
+
+<p>Curitiba, 29 de setembro de 2020.</p>
+
+<p>________________________________________</p>
+
+<p>i Quer saber mais sobre nossos parceiros? Encaminhe um e-mail para transparencia@faciap.org.br</p>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="logo-rodape">
+                    <a href="#">
+                        <img src="./images/logo.png" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="text-copyright">
+                                            <div class="politica-privacidade">
+                            <a style="color: #FF8B00;" href="politica-de-privacidade.html" target="_blank">
+                                Privacy Policy                            </a>
+                        </div>
+                    
+                    Copyright &copy; IPPEX - All rights reserved.<br> Developed by <a href="https://grupomarvirtual.com.br" style="text-decoration: none !important; color: #9E9E9E;" target="_blank">Grupo Mar Virtual</a>.
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="redes-sociais">
+                                            <a href="https://www.facebook.com/ippex.faciap" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                                                                <a href="https://www.instagram.com/ippex" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                                                                <a href="https://www.linkedin.com/showcase/ippex.faciap" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+</div>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60f81d32d6e7610a49ac52aa/1fb4j43in';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>

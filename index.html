@@ -1,0 +1,755 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="Mon, 06 Jan 1990 00:00:01 GMT">
+    <meta name="language" content="pt-br">
+    <meta name="author" content="Grupo Mar Virtual - www.grupomarvirtual.com.br">
+    <meta name="robots" content="index, follow">
+    <meta name="title" content="Instituto de Planejamento e Promoção em Comércio Exterior - IPEEX">
+    <meta name="description" content="Estrutura completa para atender as necessidades do seu negócio no exterior: Certificado de Origem, Declaração de Livre Venda, Declaração de Exclusividade, Seguro Internacional, Internacionalização de Empresas, Assessoria Aduaneira Internacional, Tradução e Logística Internacional.">
+    <meta name="keywords" content="IPPEX, Sistema Ippex, Instituto de Planejamento e Promoção em Comércio Exterior, Negócio Exterior, Certificado de Origem, Declaração de Livre Venda, Declaração de Exclusividade, Seguro Internacional, Internacionalização de Empresas, Assessoria Aduaneira Internacional, Tradução, Logística Internacional, Exterior, Certificado, Declaração, Seguro, Internacionalização, Aduana, Logística, Vendas, Exclusividade, Empresas, Marca, Produto Serviço, Negócios, Comércio, Comércio Exterior, Promoção, Certificado de Origem Digital, Mercadoria, Exportação, Emissão, Restrições Comerciais, Fiscalização, Impostos, Mercado Internacional, FACIAP, Empresários, Empreendedores, Importação, Paraná, Santa Catarina, Mato Grosso do Sul, Rio de Janeiro, São Paulo, Brasil.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="csrf-token" content="gf4643TbyQSePog6t8C9iwi0C7Nz8pPCWa9oizMg">
+
+    
+    <title>IPPEX Brasil - Home page</title>
+    <script src="./site/js/app-5.js?v=2023-11-11 07:49:28" defer=""></script>
+    <script src="./recaptcha/api-1.js?hl=en" async="" defer=""></script>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="./css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="./site/css/app-5.css?v=2023-11-11 07:49:28" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+
+    <script type="text/javascript" async="" src="./js/loader-scripts/aee572ef-7a87-4666-ae52-98a2884ce091-loader.js"></script>
+    <script src="./jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(window).ready(function () {
+
+            
+            $('.btn-certificado').on('click', function () {
+                var cert_number = document.getElementById('certnumber').value;
+
+                var v = grecaptcha.getResponse();
+                if (v.length == 0) {
+                    $('#rcaptcha').text("Erro no recaptcha!");
+                    $('#rcaptcha').removeClass('d-none');
+
+                    grecaptcha.reset();
+                    return false;
+                }
+
+                fetch('/api-certificado/'+cert_number)
+                    .then((response) => {
+                        return response.json()
+                    })
+                    .then((data) => {
+                        if (data.consulta) {
+                            retorno = (data.consulta)
+
+                                                        $('#certificate').text("Valid certificate of origin!");
+                            
+                            $('#certificate').removeClass('d-none');
+
+                                                        $('#numerofatura').text("Invoice Number: " + retorno.NumeroFatura);
+                            $('#datafatura').text("Invoice Date: " + retorno.DataFatura);
+                            $('#exportador').text("Export: " + retorno.Exportador);
+                            $('#dataemissao').text("Emission Date: " + retorno.DataEmissao);
+                            
+                            $('#numerofatura').removeClass('d-none');
+                            $('#datafatura').removeClass('d-none');
+                            $('#exportador').removeClass('d-none');
+                            $('#dataemissao').removeClass('d-none');
+
+                            $('#recaptcha').addClass('d-none');
+                            $('#recaptcha').removeClass('d-flex');
+                            $('#certnumber').addClass('d-none');
+                            $('#check').addClass('d-none');
+                            $('#newcheck').removeClass('d-none');
+                            $('#rcaptcha').addClass('d-none');
+
+                        } else {
+                            retorno = (data.error)
+
+                                                        $('#certificate').text("Invalid certificate of origin");
+                                                        $('#certificate').removeClass('d-none');
+
+                            $('#recaptcha').addClass('d-none');
+                            $('#recaptcha').removeClass('d-flex');
+                            $('#certnumber').addClass('d-none');
+                            $('#check').addClass('d-none');
+                            $('#newcheck').removeClass('d-none');
+                            $('#rcaptcha').addClass('d-none');
+                        }
+                    });
+            });
+
+            //NOVA CONSULTA CERITIFICADO
+            $('.btn-certificado2').on('click', function () {
+
+                $('#certificate').addClass('d-none');
+                $('#numerofatura').addClass('d-none');
+                $('#datafatura').addClass('d-none');
+                $('#exportador').addClass('d-none');
+                $('#dataemissao').addClass('d-none');
+
+                $('#recaptcha').removeClass('d-none');
+                $('#recaptcha').addClass('d-flex');
+                $('#certnumber').removeClass('d-none');
+                $('#newcheck').addClass('d-none');
+                $('#check').removeClass('d-none');
+
+                $('#certnumber').val("");
+
+                grecaptcha.reset();
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+<div id="app">
+    <header class="header-2">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg position-relative p-0" style="width: 100%;">
+                <div class="col-12 col-lg-2 col-xl-3 text-center">
+                    <a href="home.html" style="z-index: 2; text-decoration: none !important;">
+                        <img src="./images/logo.png" class="img-fluid logo-topo">
+                    </a>
+
+                    <button class="navbar-toggler botao-menu-expander" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars" style="color: #fff !important;"></i>
+                    </button>
+                </div>
+                <div class="col-12 col-lg-10 col-xl-9">
+                    <div class="collapse navbar-collapse margem-nav-topo" id="navbarNav">
+                        <ul class="navbar-nav" style="width: 100%;">
+                            <li class="nav-item item-laranja m-5-auxiliar ">
+                                <a class="nav-link link-efeito-topo " href="http://www.ippex.com.br/sistemacod/#Auth" target="_blank">IPPEX SYSTEM</a>
+                            </li>
+                            <li class="nav-item-verde item-verde ">
+                                <a class="nav-link link-efeito-topo " href="validator.html">VALIDATOR</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo animate-ancora  " href="#section-benefits" data-href="#section-benefits">BENEFITS</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo  " href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo  " href="blog.html">BLOG</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo  " href="downloads.html">DOWNLOADS</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo" href="#" data-toggle="modal" data-target="#modal-busca"><i class="fas fa-search" style="color: #FF8B00;"></i></a>
+                            </li>
+
+                            <li class="padding-bandeiras item-cinza text-center">
+                                <a class="link-efeito-topo imagem-nao-active" href="./pt/home-2.html">
+                                    <img src="./images/brazil.png">
+                                </a>
+                                <a class="link-efeito-topo imagem-active" href="home.html">
+                                    <img src="./images/england.png">
+                                </a>
+                                <a class="link-efeito-topo imagem-nao-active" href="./es/home.html">
+                                    <img src="./images/spain.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<header class="header-2-rolagem" id="aparece-rolagem" style="visibility: hidden; z-index: 0; opacity: 0; position: fixed; transition: all 0.5s ease;width: 100%;top: 0px;border-bottom: 1px #ccc solid; background-color: #fff;">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg position-relative p-0" style="width: 100%;">
+                <div class="col-12 col-lg-2 col-xl-3 text-center">
+                    <a href="home.html" style="z-index: 2;">
+                        <img src="./images/logo.png" class="img-fluid logo-topo">
+                    </a>
+
+                    <button class="navbar-toggler botao-menu-expander" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars" style="color: #fff !important;"></i>
+                    </button>
+                </div>
+                <div class="col-12 col-lg-10 col-xl-9">
+                    <div class="collapse navbar-collapse margem-nav-topo" id="navbarNav2">
+                        <ul class="navbar-nav" style="width: 100%;">
+                            <li class="nav-item item-laranja m-5-auxiliar ">
+                                <a class="nav-link link-efeito-topo " href="http://www.ippex.com.br/sistemacod/#Auth" target="_blank">IPPEX SYSTEM</a>
+                            </li>
+                            <li class="nav-item-verde item-verde ">
+                                <a class="nav-link link-efeito-topo " href="validator.html">VALIDATOR</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo animate-ancora  " href="#section-benefits" data-href="#section-benefits">BENEFITS</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo  " href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo  " href="blog.html">BLOG</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo  " href="downloads.html">DOWNLOADS</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo" href="#" data-toggle="modal" data-target="#modal-busca"><i class="fas fa-search" style="color: #FF8B00;"></i></a>
+                            </li>
+
+                            <li class="padding-bandeiras item-cinza text-center">
+                                <a class="link-efeito-topo imagem-nao-active" href="./pt/home-2.html">
+                                    <img src="./images/brazil.png">
+                                </a>
+                                <a class="link-efeito-topo imagem-active" href="home.html">
+                                    <img src="./images/england.png">
+                                </a>
+                                <a class="link-efeito-topo imagem-nao-active" href="./es/home.html">
+                                    <img src="./images/spain.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="modal fade" id="modal-busca" tabindex="-1" role="dialog" aria-labelledby="modalBusca" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="background-color: transparent;">
+            <div class="modal-header" style="background-color: #fff;color: #495057;">
+                Search                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" style="color: #495057;">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="background-color: #fff;">
+
+                <form action="https://site.ippex.com.br/en/busca" method="post">
+                    <input type="hidden" name="_token" value="gf4643TbyQSePog6t8C9iwi0C7Nz8pPCWa9oizMg">                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control " id="search" name="search" placeholder="Type here what you want to find" value="" required="">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="button-busca">
+                                    Search                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <main class="main">
+        <div class="container-banner">
+    <div class="slide-wrapper-container">
+        <div class="slide-wrapper">
+                            <div>
+                    <a href="" target="_self" style="color: #fff !important;">
+                        <div class="container-banner">
+                                                            <div class="imagem" style="background-image: url(./storage/banners/1-2.png)">
+                                </div>
+                            
+                            <div class="descricao-banner">
+                                                                    
+                                                            </div>
+                        </div>
+                    </a>
+                </div>
+                    </div>
+    </div>
+    </div>
+
+<section class="section-dados-clientes">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-12 col-lg-4 box-dados">
+                MORE THAN                <p class="dado-grande">
+                                        12 MIL
+                                    </p>
+                CLIENTS TRUST<br>
+                IPPEX            </div>
+            <div class="col-12 col-lg-4 box-dados">
+                MORE THAN                <p class="dado-grande">
+                                        500 MIL
+                                    </p>
+                ORIGIN CERTIFICATES<br>
+                EMITTED            </div>
+            <div class="col-12 col-lg-4 box-dados">
+                <p class="dado-grande">
+                    249
+                </p>
+                COUNTRIES REGISTERED<br>
+                IN THE SYSTEM            </div>
+        </div>
+    </div>
+</section>
+<section class="section-beneficios-home" id="section-benefits">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="titulo-section-beneficios-home">
+                    BENEFITS                </div>
+            </div>
+
+                        <div class="col-12 col-md-4 col-lg-3">
+                                    <a href="benefits/certificado-de-origem.html" class="link-box-benefit">
+                        <div class="box-benefit">
+                                                            <div class="image" style="background-image: url('./storage/benefits/5-2.png');">
+                                </div>
+                                <div class="title">
+                                                                            CERTIFICATE OF ORIGIN
+                                                                    </div>
+                                                    </div>
+                    </a>
+                            </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                                    <a href="benefits/declaracao-de-livre-venda.html" class="link-box-benefit">
+                        <div class="box-benefit">
+                                                            <div class="image" style="background-image: url('./storage/benefits/4-2.png');">
+                                </div>
+                                <div class="title">
+                                                                            DECLARATION OF FREE SALE
+                                                                    </div>
+                                                    </div>
+                    </a>
+                            </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                                    <a href="benefits/declaracao-de-exclusividade.html" class="link-box-benefit">
+                        <div class="box-benefit">
+                                                            <div class="image" style="background-image: url('./storage/benefits/3.png');">
+                                </div>
+                                <div class="title">
+                                                                            DECLARATION OF EXCLUSIVITY
+                                                                    </div>
+                                                    </div>
+                    </a>
+                            </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                                    <a href="benefits/internacionalizacao-de-empresas.html" class="link-box-benefit">
+                        <div class="box-benefit">
+                                                            <div class="image" style="background-image: url('./storage/benefits/1.png');">
+                                </div>
+                                <div class="title">
+                                                                            INTERNATIONALIZATION OF COMPANIES
+                                                                    </div>
+                                                    </div>
+                    </a>
+                            </div>
+                    </div>
+    </div>
+</section>
+
+<section class="section-advantages-home">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 offset-0 col-md-6 offset-md-6 col-lg-5 offset-lg-6">
+                <p class="titulo-vantagens">ADVANTAGES</p>
+                <ul class="advantage">
+                                        <li>
+                                                Emissão 100% on-line, com um sistema ágil e simples, com suporte técnico incluso
+                                            </li>
+                                        <li>
+                                                Substituição de certificados isentos em até 48h
+                                            </li>
+                                        <li>
+                                                Análise dos certificados e declarações em até 30 minutos
+                                            </li>
+                                        <li>
+                                                Sistema inteligente, com preenchimento automático de dados
+                                            </li>
+                                        <li>
+                                                Chat de interação entre empresas e analista da FACIAP
+                                            </li>
+                                    </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-certificate-origin">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-12 col-md-6">
+                <div class="box-texto">
+                    Validate your <br>
+                    <span>Certificate of Origin</span><br>
+                    right now.                    <br>
+                    <img src="./images/seta.png" class="img-fluid">
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-5">
+                <div class="box-formulario">
+                    <div class="row">
+                        <div class="col-12">
+
+                            <label class="d-none inp-cab" id="certificate"></label>
+
+                            <div class="form-group" style="margin-bottom: 10px;">
+
+                                <input type="text" class="form-control form-certificate " id="certnumber" name="certnumber" placeholder="Certificate Number" value="" required="">
+
+                                <label class="d-none inp-cert" id="numerofatura" for=""></label>
+                                <label class="d-none inp-cert" id="datafatura" for=""></label>
+                                <label class="d-none inp-cert" id="exportador" for=""></label>
+                                <label class="d-none inp-cert" id="dataemissao" for=""></label>
+                            </div>
+                                                    </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <label class="d-none inp-cert" id="rcaptcha" for=""></label>
+
+                            <div class="d-flex justify-content-center align-items-center" name="recaptcha" id="recaptcha">
+                                <div class="g-recaptcha" data-sitekey="6LcymIIUAAAAALsNeFXKl8rM40JfxAtZO1Gbg9pz"></div>
+                            </div>
+
+                            <div id="btn-enviar">
+                                <button type="submit" class="btn btn-form btn-certificado" id="check" name="check">
+                                    CHECK                                </button>
+                            </div>
+
+                            <div id="btn-enviar2">
+                                <button type="submit" class="btn btn-form btn-certificado2 d-none" name="newcheck" id="newcheck">
+                                    NEW CHECK                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-clients">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title-clients">
+                    CUSTOMERS                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center" style="margin-top: 30px;position: relative;">
+                        <div class="prev-clients d-md-flex d-lg-none">
+                <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="next-clients d-md-flex d-lg-none">
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            
+                        <div class="col-10 d-block d-lg-none">
+                <div class="slide-wrapper-container">
+                    <div class="slide-wrapper slide-wrapper-clients">
+                                                <a href="https://www.copacol.com.br/" target=" _blank" style="color: #fff !important;">
+                            <div class="container-customer">
+                                <div class="image-customer" title="Copacol" style="background-image: url(./storage/customers/5.png)">
+                                </div>
+                            </div>
+                        </a>
+                                                <a href="https://www.arauco.cl/brasil/" target=" _blank" style="color: #fff !important;">
+                            <div class="container-customer">
+                                <div class="image-customer" title="Arauco" style="background-image: url(./storage/customers/6.png)">
+                                </div>
+                            </div>
+                        </a>
+                                                <a href="https://www.internationalpaper.com/pt" target=" _blank" style="color: #fff !important;">
+                            <div class="container-customer">
+                                <div class="image-customer" title="Internacional paper" style="background-image: url(./storage/customers/7.png)">
+                                </div>
+                            </div>
+                        </a>
+                                                <a href="https://www.lar.ind.br/" target=" _blank" style="color: #fff !important;">
+                            <div class="container-customer">
+                                <div class="image-customer" title="Lar" style="background-image: url(./storage/customers/8.png)">
+                                </div>
+                            </div>
+                        </a>
+                                                <a href="https://www.cvale.com.br/site/" target=" _blank" style="color: #fff !important;">
+                            <div class="container-customer">
+                                <div class="image-customer" title="Cvale" style="background-image: url(./storage/customers/9.png)">
+                                </div>
+                            </div>
+                        </a>
+                                            </div>
+                </div>
+            </div>
+
+            <div class="col-12 d-none d-lg-block">
+                <div class="row justify-content-center align-items-center">
+                                        <div class="col-2">
+                        <a href="https://www.copacol.com.br/" target=" _blank" style="color: #fff !important;">
+                            <div class="container-customer">
+                                <div class="image-customer" title="Copacol" style="background-image: url(./storage/customers/5.png)">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                        <div class="col-2">
+                        <a href="https://www.arauco.cl/brasil/" target=" _blank" style="color: #fff !important;">
+                            <div class="container-customer">
+                                <div class="image-customer" title="Arauco" style="background-image: url(./storage/customers/6.png)">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                        <div class="col-2">
+                        <a href="https://www.internationalpaper.com/pt" target=" _blank" style="color: #fff !important;">
+                            <div class="container-customer">
+                                <div class="image-customer" title="Internacional paper" style="background-image: url(./storage/customers/7.png)">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                        <div class="col-2">
+                        <a href="https://www.lar.ind.br/" target=" _blank" style="color: #fff !important;">
+                            <div class="container-customer">
+                                <div class="image-customer" title="Lar" style="background-image: url(./storage/customers/8.png)">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                        <div class="col-2">
+                        <a href="https://www.cvale.com.br/site/" target=" _blank" style="color: #fff !important;">
+                            <div class="container-customer">
+                                <div class="image-customer" title="Cvale" style="background-image: url(./storage/customers/9.png)">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                                    </div>
+            </div>
+                    </div>
+    </div>
+</section>
+
+<section class="section-blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6">
+                <div class="title-blog">
+                    BLOG
+                </div>
+                                <div class="row">
+                                        <div class="col-md-6">
+                                                <a href="blog/habilitacoes-no-siscomex-passam-a-ser-validas-por-6-meses.html" style="text-decoration: none !important;">
+                            <div class="box-blog">
+                                                                    <div class="foto-blog" style="background-image: url('./storage/blog/20.jpg')">
+                                </div>
+                                
+                                <div class="title-news">
+                                    Habilitações no Siscomex passam a ser válid ...
+                                </div>
+                            </div>
+                        </a>
+                                            </div>
+                                        <div class="col-md-6">
+                                                <a href="blog/foreign-trade-how-to-prepare-your-company-for-export.html" style="text-decoration: none !important;">
+                            <div class="box-blog">
+                                                                    <div class="foto-blog" style="background-image: url('./storage/blog/23.jpg')">
+                                </div>
+                                
+                                <div class="title-news">
+                                    Foreign Trade: How to prepare your company for ...
+                                </div>
+                            </div>
+                        </a>
+                                            </div>
+                                        <div class="col-md-6">
+                                                <a href="blog/small-companies-can-also-export.html" style="text-decoration: none !important;">
+                            <div class="box-blog">
+                                                                    <div class="foto-blog" style="background-image: url('./storage/blog/24.jpg')">
+                                </div>
+                                
+                                <div class="title-news">
+                                    Small Companies can also export 
+                                </div>
+                            </div>
+                        </a>
+                                            </div>
+                                        <div class="col-md-6">
+                                                <a href="blog/are-you-going-to-export-then-you-need-the-digital-certificate-of-origin.html" style="text-decoration: none !important;">
+                            <div class="box-blog">
+                                                                    <div class="foto-blog" style="background-image: url('./storage/blog/25.jpg')">
+                                </div>
+                                
+                                <div class="title-news">
+                                    Are you going to export? Then you need the Dig ...
+                                </div>
+                            </div>
+                        </a>
+                                            </div>
+                                    </div>
+                            </div>
+            <div class="col-12 col-md-6 d-block d-md-none" style="margin-top: 15px;">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="blog.html" class="btn-ver-mais">See more</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 d-none d-md-block">
+                <div class="title-instagram">
+                    <i class="fab fa-instagram"></i>
+                    &nbsp;INSTAGRAM
+                </div>
+                                <iframe style="height: calc(100% - 71px); border: 1px #9e9e9e solid; border-bottom: none !important;border-radius: 21px;" src="https://www.instagram.com/p/CR1LPhsN3IB/embed" width="100%" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                            </div>
+            <div class="col-12 d-block d-md-none">
+                <div class="title-instagram">
+                    <i class="fab fa-instagram"></i>
+                    &nbsp;INSTAGRAM
+                </div>
+                                <iframe style="height: 600px; border: 1px #9e9e9e solid; border-bottom: 1px #9e9e9e solid;border-radius: 21px;" src="https://www.instagram.com/p/CR1LPhsN3IB/embed" width="100%" frameborder="0" scrolling="no" allowtransparency="true"></iframe>
+                            </div>
+            <div class="col-12 col-md-6 d-none d-md-block" style="margin-top: 15px;">
+                <div class="d-flex justify-content-center align-items-center">
+                    <a href="blog.html" class="btn-ver-mais">See more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-contact" id="contacthome">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title-contact">
+                    CONTACT                </div>
+            </div>
+
+                                    <div class="col-12 offset-0 col-md-6 offset-md-3">
+                <div class="box-contact-home">
+                    <form action="https://site.ippex.com.br/contato" method="POST">
+                        <input type="hidden" name="_token" value="gf4643TbyQSePog6t8C9iwi0C7Nz8pPCWa9oizMg">                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group-contact">
+                                    <input type="text" class="form-control form-contact " id="name" name="name" placeholder="NAME" value="" required="">
+                                </div>
+                                                            </div>
+
+                            <div class="col-12">
+                                <div class="form-group-contact">
+                                    <input type="email" class="form-control form-contact " id="email" name="email" placeholder="EMAIL" value="" required="">
+                                </div>
+                                                            </div>
+
+                            <div class="col-12">
+                                <div class="form-group-contact">
+                                    <input type="text" class="form-control form-contact telefone " id="telephone" name="telephone" placeholder="TELEPHONE" value="" required="">
+                                </div>
+                                                            </div>
+
+                            <div class="col-12">
+                                <div class="form-group-contact">
+                                    <textarea type="text" class="form-control form-contact " id="message" name="message" placeholder="MESSAGE" required="" rows="7" style="height: auto;"></textarea>
+                                </div>
+                                                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div class="g-recaptcha" data-sitekey="6LcymIIUAAAAALsNeFXKl8rM40JfxAtZO1Gbg9pz"></div>
+
+                                    <button type="submit" class="btn btn-contact d-none d-xl-block">
+                                        SEND                                    </button>
+                                </div>
+
+                                <div class="d-flex justify-content-center align-items-center d-xl-none">
+                                    <button type="submit" class="btn btn-contact">
+                                        SEND                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                                                    <div class="row">
+                                <div class="col-md-12">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <p style="color: white; margin: 10px;">By sending, you agree with our                                            <a href="politica-de-privacidade.html" style="color: #FF8B00; text-decoration: none;" target="_blank">
+                                                <strong>Privacy Policy</strong>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                                            </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="logo-rodape">
+                    <a href="#">
+                        <img src="./images/logo.png" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="text-copyright">
+                                            <div class="politica-privacidade">
+                            <a style="color: #FF8B00;" href="politica-de-privacidade.html" target="_blank">
+                                Privacy Policy                            </a>
+                        </div>
+                    
+                    Copyright &copy; IPPEX - All rights reserved.<br> Developed by <a href="https://grupomarvirtual.com.br" style="text-decoration: none !important; color: #9E9E9E;" target="_blank">Grupo Mar Virtual</a>.
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="redes-sociais">
+                                            <a href="https://www.facebook.com/ippex.faciap" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                                                                <a href="https://www.instagram.com/ippex" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                                                                <a href="https://www.linkedin.com/showcase/ippex.faciap" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+</div>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60f81d32d6e7610a49ac52aa/1fb4j43in';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>

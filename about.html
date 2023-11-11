@@ -1,0 +1,446 @@
+﻿<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="Mon, 06 Jan 1990 00:00:01 GMT">
+    <meta name="language" content="pt-br">
+    <meta name="author" content="Grupo Mar Virtual - www.grupomarvirtual.com.br">
+    <meta name="robots" content="index, follow">
+    <meta name="title" content="Instituto de Planejamento e Promoção em Comércio Exterior - IPEEX">
+    <meta name="description" content="Estrutura completa para atender as necessidades do seu negócio no exterior: Certificado de Origem, Declaração de Livre Venda, Declaração de Exclusividade, Seguro Internacional, Internacionalização de Empresas, Assessoria Aduaneira Internacional, Tradução e Logística Internacional.">
+    <meta name="keywords" content="IPPEX, Sistema Ippex, Instituto de Planejamento e Promoção em Comércio Exterior, Negócio Exterior, Certificado de Origem, Declaração de Livre Venda, Declaração de Exclusividade, Seguro Internacional, Internacionalização de Empresas, Assessoria Aduaneira Internacional, Tradução, Logística Internacional, Exterior, Certificado, Declaração, Seguro, Internacionalização, Aduana, Logística, Vendas, Exclusividade, Empresas, Marca, Produto Serviço, Negócios, Comércio, Comércio Exterior, Promoção, Certificado de Origem Digital, Mercadoria, Exportação, Emissão, Restrições Comerciais, Fiscalização, Impostos, Mercado Internacional, FACIAP, Empresários, Empreendedores, Importação, Paraná, Santa Catarina, Mato Grosso do Sul, Rio de Janeiro, São Paulo, Brasil.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="csrf-token" content="gf4643TbyQSePog6t8C9iwi0C7Nz8pPCWa9oizMg">
+
+    
+    <title>IPPEX Brasil - About</title>
+    <script src="./site/js/app-22.js?v=2023-11-11 07:51:48" defer=""></script>
+    <script src="./recaptcha/api-1.js?hl=en" async="" defer=""></script>
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link rel="shortcut icon" href="./images/favicon.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="./css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="./site/css/app-22.css?v=2023-11-11 07:51:48" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous">
+
+    <script type="text/javascript" async="" src="./js/loader-scripts/aee572ef-7a87-4666-ae52-98a2884ce091-loader.js"></script>
+    <script src="./jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        $(window).ready(function () {
+
+            
+            $('.btn-certificado').on('click', function () {
+                var cert_number = document.getElementById('certnumber').value;
+
+                var v = grecaptcha.getResponse();
+                if (v.length == 0) {
+                    $('#rcaptcha').text("Erro no recaptcha!");
+                    $('#rcaptcha').removeClass('d-none');
+
+                    grecaptcha.reset();
+                    return false;
+                }
+
+                fetch('/api-certificado/'+cert_number)
+                    .then((response) => {
+                        return response.json()
+                    })
+                    .then((data) => {
+                        if (data.consulta) {
+                            retorno = (data.consulta)
+
+                                                        $('#certificate').text("Valid certificate of origin!");
+                            
+                            $('#certificate').removeClass('d-none');
+
+                                                        $('#numerofatura').text("Invoice Number: " + retorno.NumeroFatura);
+                            $('#datafatura').text("Invoice Date: " + retorno.DataFatura);
+                            $('#exportador').text("Export: " + retorno.Exportador);
+                            $('#dataemissao').text("Emission Date: " + retorno.DataEmissao);
+                            
+                            $('#numerofatura').removeClass('d-none');
+                            $('#datafatura').removeClass('d-none');
+                            $('#exportador').removeClass('d-none');
+                            $('#dataemissao').removeClass('d-none');
+
+                            $('#recaptcha').addClass('d-none');
+                            $('#recaptcha').removeClass('d-flex');
+                            $('#certnumber').addClass('d-none');
+                            $('#check').addClass('d-none');
+                            $('#newcheck').removeClass('d-none');
+                            $('#rcaptcha').addClass('d-none');
+
+                        } else {
+                            retorno = (data.error)
+
+                                                        $('#certificate').text("Invalid certificate of origin");
+                                                        $('#certificate').removeClass('d-none');
+
+                            $('#recaptcha').addClass('d-none');
+                            $('#recaptcha').removeClass('d-flex');
+                            $('#certnumber').addClass('d-none');
+                            $('#check').addClass('d-none');
+                            $('#newcheck').removeClass('d-none');
+                            $('#rcaptcha').addClass('d-none');
+                        }
+                    });
+            });
+
+            //NOVA CONSULTA CERITIFICADO
+            $('.btn-certificado2').on('click', function () {
+
+                $('#certificate').addClass('d-none');
+                $('#numerofatura').addClass('d-none');
+                $('#datafatura').addClass('d-none');
+                $('#exportador').addClass('d-none');
+                $('#dataemissao').addClass('d-none');
+
+                $('#recaptcha').removeClass('d-none');
+                $('#recaptcha').addClass('d-flex');
+                $('#certnumber').removeClass('d-none');
+                $('#newcheck').addClass('d-none');
+                $('#check').removeClass('d-none');
+
+                $('#certnumber').val("");
+
+                grecaptcha.reset();
+
+            });
+        });
+    </script>
+</head>
+
+<body>
+<div id="app">
+    <header class="header-2">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg position-relative p-0" style="width: 100%;">
+                <div class="col-12 col-lg-2 col-xl-3 text-center">
+                    <a href="home.html" style="z-index: 2; text-decoration: none !important;">
+                        <img src="./images/logo.png" class="img-fluid logo-topo">
+                    </a>
+
+                    <button class="navbar-toggler botao-menu-expander" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars" style="color: #fff !important;"></i>
+                    </button>
+                </div>
+                <div class="col-12 col-lg-10 col-xl-9">
+                    <div class="collapse navbar-collapse margem-nav-topo" id="navbarNav">
+                        <ul class="navbar-nav" style="width: 100%;">
+                            <li class="nav-item item-laranja m-5-auxiliar opacity-transparente">
+                                <a class="nav-link link-efeito-topo opacity-transparente" href="http://www.ippex.com.br/sistemacod/#Auth" target="_blank">IPPEX SYSTEM</a>
+                            </li>
+                            <li class="nav-item-verde item-verde opacity-transparente">
+                                <a class="nav-link link-efeito-topo opacity-transparente" href="validator.html">VALIDATOR</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo  opacity-transparente " href="home.html#section-benefits" data-href="https://site.ippex.com.br/en/home#section-benefits">BENEFITS</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo  rota-ativa" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo opacity-transparente " href="blog.html">BLOG</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo opacity-transparente " href="downloads.html">DOWNLOADS</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo" href="#" data-toggle="modal" data-target="#modal-busca"><i class="fas fa-search" style="color: #FF8B00;"></i></a>
+                            </li>
+
+                            <li class="padding-bandeiras item-cinza text-center">
+                                <a class="link-efeito-topo imagem-nao-active" href="./pt/home-2.html">
+                                    <img src="./images/brazil.png">
+                                </a>
+                                <a class="link-efeito-topo imagem-active" href="home.html">
+                                    <img src="./images/england.png">
+                                </a>
+                                <a class="link-efeito-topo imagem-nao-active" href="./es/home.html">
+                                    <img src="./images/spain.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<header class="header-2-rolagem" id="aparece-rolagem" style="visibility: hidden; z-index: 0; opacity: 0; position: fixed; transition: all 0.5s ease;width: 100%;top: 0px;border-bottom: 1px #ccc solid; background-color: #fff;">
+    <div class="container">
+        <div class="row">
+            <nav class="navbar navbar-expand-lg position-relative p-0" style="width: 100%;">
+                <div class="col-12 col-lg-2 col-xl-3 text-center">
+                    <a href="home.html" style="z-index: 2;">
+                        <img src="./images/logo.png" class="img-fluid logo-topo">
+                    </a>
+
+                    <button class="navbar-toggler botao-menu-expander" type="button" data-toggle="collapse" data-target="#navbarNav2" aria-controls="navbarNav2" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fas fa-bars" style="color: #fff !important;"></i>
+                    </button>
+                </div>
+                <div class="col-12 col-lg-10 col-xl-9">
+                    <div class="collapse navbar-collapse margem-nav-topo" id="navbarNav2">
+                        <ul class="navbar-nav" style="width: 100%;">
+                            <li class="nav-item item-laranja m-5-auxiliar opacity-transparente">
+                                <a class="nav-link link-efeito-topo opacity-transparente" href="http://www.ippex.com.br/sistemacod/#Auth" target="_blank">IPPEX SYSTEM</a>
+                            </li>
+                            <li class="nav-item-verde item-verde opacity-transparente">
+                                <a class="nav-link link-efeito-topo opacity-transparente" href="validator.html">VALIDATOR</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo  opacity-transparente " href="home.html#section-benefits" data-href="https://site.ippex.com.br/en/home#section-benefits">BENEFITS</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo  rota-ativa" href="about.html">ABOUT</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo opacity-transparente " href="blog.html">BLOG</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo opacity-transparente " href="downloads.html">DOWNLOADS</a>
+                            </li>
+                            <li class="nav-item item-cinza">
+                                <a class="nav-link link-efeito-topo" href="#" data-toggle="modal" data-target="#modal-busca"><i class="fas fa-search" style="color: #FF8B00;"></i></a>
+                            </li>
+
+                            <li class="padding-bandeiras item-cinza text-center">
+                                <a class="link-efeito-topo imagem-nao-active" href="./pt/home-2.html">
+                                    <img src="./images/brazil.png">
+                                </a>
+                                <a class="link-efeito-topo imagem-active" href="home.html">
+                                    <img src="./images/england.png">
+                                </a>
+                                <a class="link-efeito-topo imagem-nao-active" href="./es/home.html">
+                                    <img src="./images/spain.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+
+<div class="modal fade" id="modal-busca" tabindex="-1" role="dialog" aria-labelledby="modalBusca" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content" style="background-color: transparent;">
+            <div class="modal-header" style="background-color: #fff;color: #495057;">
+                Search                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" style="color: #495057;">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="background-color: #fff;">
+
+                <form action="https://site.ippex.com.br/en/busca" method="post">
+                    <input type="hidden" name="_token" value="gf4643TbyQSePog6t8C9iwi0C7Nz8pPCWa9oizMg">                    <div class="row">
+                        <div class="col-12">
+                            <div class="form-group">
+                                <input type="text" class="form-control " id="search" name="search" placeholder="Type here what you want to find" value="" required="">
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="button-busca">
+                                    Search                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <main class="main">
+        
+<section class="section-sobre-individual">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="main-title">
+                    ABOUT                </div>
+            </div>
+            <div class="col-10 offset-1">
+                <div class="title-institute">
+                    THE FACIAP                </div>
+                <div class="text-institute">
+                                        <p>Fundada em 1959, a Faciap - Federa&ccedil;&atilde;o das Associa&ccedil;&otilde;es Comerciais e Empresariais do Paran&aacute; representa hoje cerca de 270 associa&ccedil;&otilde;es comerciais e um universo de mais de 50 mil empresas em todo o Estado. A entidade &eacute; uma das maiores institui&ccedil;&otilde;es<br>
+do sistema no Brasil, com atua&ccedil;&atilde;o em 75% dos municipios paranaenses.</p>
+
+<p>A Faciap faz parte da maior ONG brasileira focada no desenvolvimento comunit&aacute;rio, organiza&ccedil;&atilde;o esta composta por uma Confedera&ccedil;&atilde;o Brasileira de Associa&ccedil;&otilde;es Comerciais e Empresariais (CACB), 27 Federa&ccedil;&otilde;es Estaduais e 2.038 ACEs em 2100 munic&iacute;pios brasileiros. Por tr&aacute;s dessa capilaridade, tem-se aproximadamente 200 mil empresas associadas e 2 milh&otilde;es de colaboradores.</p>
+                                    </div>
+            </div>
+
+            <div class="col-10 offset-1">
+                <div class="title-institute">
+                    THE IPPEX                </div>
+                <div class="text-institute">
+                                        <p style="text-align:justify"><strong>Desenvolvemos solu&ccedil;&otilde;es para internacionalizar o seu neg&oacute;cio</strong></p>
+
+<p style="text-align:justify">O Instituto de Planejamento e Promo&ccedil;&atilde;o em Com&eacute;rcio Exterior - Ippex foi criado em 2006, pela Faciap, com o objetivo de ajudar empresas paranaenses a ingressarem no mercado internacional e se manterem competitivas nesse mercado.&nbsp;</p>
+
+<p style="text-align:justify">A atua&ccedil;&atilde;o do&nbsp;<strong>Ippex no Paran&aacute;</strong>&nbsp;veio tamb&eacute;m para complementar o servi&ccedil;o de emiss&atilde;o de Certificado de Origem para exporta&ccedil;&atilde;o j&aacute; existente na Faciap desde 1999 &ndash; federa&ccedil;&atilde;o que representa hoje cerca de 270 associa&ccedil;&otilde;es comerciais e um universo com mais de 50 mil empresas associadas em todo o estado.</p>
+
+<p style="text-align:justify">Em 2010 expandimos nossa atua&ccedil;&atilde;o para os estados de Santa Catarina, Mato Grosso do Sul e Rio de Janeiro. J&aacute; em 2019 passamos a atender o estado de S&atilde;o Paulo.</p>
+
+<p style="text-align:justify">Mais de 12 mil clientes confiam no Ippex. Com isso, j&aacute; emitimos mais de 500 mil certificados de origem, atestando a origem de mercadorias em mais 200 pa&iacute;ses.</p>
+
+<p style="text-align:justify">Atualmente oferecemos assessoria completa para atender todas as etapas de importa&ccedil;&atilde;o e exporta&ccedil;&atilde;o, seja sua empresa de pequeno, m&eacute;dio ou grande porte.</p>
+                                    </div>
+            </div>
+
+                        <div class="col-10 offset-1" style="margin-top: 10px">
+                <div class="row" id="lightgallery2">
+                                                        </div>
+            </div>
+                    </div>
+    </div>
+</section>
+
+<section class="section-nossa-equipe">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="main-team">
+                    OUR TEAM                </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center align-items-center" style="margin-top: 15px;">
+                    </div>
+    </div>
+</section>
+
+<section class="section-contato-sobre" id="contactsobre">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="main-title">
+                    CONTACT                </div>
+            </div>
+                                    <div class="col-12 offset-0 col-md-6 offset-md-3">
+                <div class="box-contact-sobre">
+                    <form action="https://site.ippex.com.br/contato" method="POST">
+                        <input type="hidden" name="sobre" value="1">
+                        <input type="hidden" name="_token" value="gf4643TbyQSePog6t8C9iwi0C7Nz8pPCWa9oizMg">                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group-contact">
+                                    <input type="text" class="form-control form-contact " id="name" name="name" placeholder="NAME" value="" required="">
+                                </div>
+                                                            </div>
+
+                            <div class="col-12">
+                                <div class="form-group-contact">
+                                    <input type="email" class="form-control form-contact " id="email" name="email" placeholder="EMAIL" value="" required="">
+                                </div>
+                                                            </div>
+
+                            <div class="col-12">
+                                <div class="form-group-contact">
+                                    <input type="text" class="form-control form-contact telefone " id="telephone" name="telephone" placeholder="TELEPHONE" value="" required="">
+                                </div>
+                                                            </div>
+
+                            <div class="col-12">
+                                <div class="form-group-contact">
+                                    <textarea type="text" class="form-control form-contact " id="message" name="message" placeholder="MESSAGE" required="" rows="7" style="height: auto;"></textarea>
+                                </div>
+                                                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="d-flex justify-content-center align-items-center">
+                                    <div class="g-recaptcha" data-sitekey="6LcymIIUAAAAALsNeFXKl8rM40JfxAtZO1Gbg9pz"></div>
+
+                                    <button type="submit" class="btn btn-contact d-none d-xl-block">
+                                        SEND                                    </button>
+                                </div>
+
+                                <div class="d-flex align-items-center justify-content-center d-xl-none">
+                                    <button type="submit" class="btn btn-contact">
+                                        SEND                                    </button>
+                                </div>
+
+                            </div>
+                        </div>
+                                                    <div class="row">
+                                <div class="col-md-12">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <p style="color: black; margin: 10px;">Ao enviar, você concorda com a nossa
+                                            <a href="politica-de-privacidade.html" style="color: #FF8B00; text-decoration: none;" target="_blank">
+                                                <strong>Política de Privacidade.</strong>
+                                            </a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                                            </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+    <footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="logo-rodape">
+                    <a href="#">
+                        <img src="./images/logo.png" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="text-copyright">
+                                            <div class="politica-privacidade">
+                            <a style="color: #FF8B00;" href="politica-de-privacidade.html" target="_blank">
+                                Privacy Policy                            </a>
+                        </div>
+                    
+                    Copyright &copy; IPPEX - All rights reserved.<br> Developed by <a href="https://grupomarvirtual.com.br" style="text-decoration: none !important; color: #9E9E9E;" target="_blank">Grupo Mar Virtual</a>.
+                </div>
+            </div>
+
+            <div class="col-12">
+                <div class="redes-sociais">
+                                            <a href="https://www.facebook.com/ippex.faciap" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                                                                <a href="https://www.instagram.com/ippex" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                                                                <a href="https://www.linkedin.com/showcase/ippex.faciap" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                                    </div>
+            </div>
+        </div>
+    </div>
+    
+</footer>
+</div>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/60f81d32d6e7610a49ac52aa/1fb4j43in';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+</body>
+</html>

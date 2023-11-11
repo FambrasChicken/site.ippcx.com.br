@@ -1,0 +1,1224 @@
+Uri: http://www2.aladi.org/biblioteca/publicaciones/aladi/acuerdos/ace/pt/ace18/ACE_018_180_pt.pdf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\biblioteca\publicaciones\aladi\acuerdos\ace\pt\ace18\ACE_018_180_pt.pdf
+Content Type: application/pdf
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\css\all.min.css
+Content Type: text/css
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-brands-400.eot
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-brands-400.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-brands-400.eot?
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-brands-400-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-brands-400.svg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-brands-400.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-brands-400.ttf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-brands-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-brands-400.woff
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-brands-400.woff
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-brands-400.woff2
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-brands-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-regular-400.eot
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-regular-400.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-regular-400.eot?
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-regular-400-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-regular-400.svg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-regular-400.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-regular-400.ttf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-regular-400.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-regular-400.woff
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-regular-400.woff
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-regular-400.woff2
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-regular-400.woff2
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-solid-900.eot
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-solid-900.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-solid-900.eot?
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-solid-900-1.eot
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-solid-900.svg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-solid-900.svg
+Content Type: image/svg+xml
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-solid-900.ttf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-solid-900.ttf
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-solid-900.woff
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-solid-900.woff
+Content Type: application/octet-stream
+
+Uri: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-solid-900.woff2
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ajax\libs\font-awesome\5.15.1\webfonts\fa-solid-900.woff2
+Content Type: application/octet-stream
+
+Uri: https://code.jquery.com/jquery-3.6.0.min.js
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\jquery-3.6.0.min.js
+Content Type: application/javascript
+
+Uri: https://d335luupugsy2.cloudfront.net/cms%2Ffiles%2F80790%2F1644258533Tabela_de_Correlacao_NCM_2017_2022_Atualizada1_2_1.pdf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\cmsfiles807901644258533Tabela_de_Correlacao_NCM_2017_2022_Atualizada1_2_1.pdf
+Content Type: ,application/pdf
+
+Uri: https://d335luupugsy2.cloudfront.net/cms/files/80790/1642615018/$1n0a88jpk8p
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\cms\files\80790\1642615018\$1n0a88jpk8p
+Content Type: image/png
+
+Uri: https://d335luupugsy2.cloudfront.net/cms/files/80790/1642615018/$kvnzxeds3h
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\cms\files\80790\1642615018\$kvnzxeds3h
+Content Type: image/png
+
+Uri: https://d335luupugsy2.cloudfront.net/js/loader-scripts/aee572ef-7a87-4666-ae52-98a2884ce091-loader.js
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\js\loader-scripts\aee572ef-7a87-4666-ae52-98a2884ce091-loader.js
+Content Type: application/javascript
+
+Uri: https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\css2
+Content Type: text/css
+
+Uri: https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F.ttf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\s\manrope\v15\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4aE-_F.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F.ttf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\s\manrope\v15\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk4jE-_F.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F.ttf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\s\manrope\v15\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59E-_F.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59FO_F.ttf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\s\manrope\v15\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk59FO_F.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk6jFO_F.ttf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\s\manrope\v15\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk6jFO_F.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F.ttf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\s\manrope\v15\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk79FO_F.ttf
+Content Type: font/ttf
+
+Uri: https://fonts.gstatic.com/s/manrope/v15/xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F.ttf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\s\manrope\v15\xn7_YHE41ni1AdIRqAuZuw1Bx9mbZk7PFO_F.ttf
+Content Type: font/ttf
+
+Uri: https://site.ippex.com.br/en/about
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\about.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/benefits/certificado-de-origem
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\benefits\certificado-de-origem.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/benefits/declaracao-de-exclusividade
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\benefits\declaracao-de-exclusividade.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/benefits/declaracao-de-livre-venda
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\benefits\declaracao-de-livre-venda.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/benefits/internacionalizacao-de-empresas
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\benefits\internacionalizacao-de-empresas.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/a-partir-de-8-de-abril-certificados-de-origem-para-exportacoes-com-destino-a-argentina-nao-poderao-mais-ser-em-papel.
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\a-partir-de-8-de-abril-certificados-de-origem-para-exportacoes-com-destino-a-argentina-nao-poderao-mais-ser-em-papel..html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/acordo-entre--mercosul-e-uniao-europeia-e-fechado
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\acordo-entre--mercosul-e-uniao-europeia-e-fechado.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/are-you-going-to-export-then-you-need-the-digital-certificate-of-origin
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\are-you-going-to-export-then-you-need-the-digital-certificate-of-origin.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/colombia-adotara-certificacao-de-origem-digital
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\colombia-adotara-certificacao-de-origem-digital.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/como-aplicar-a-nova-versao-da-ncmsh-2022-nos-certificados-de-origem
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\como-aplicar-a-nova-versao-da-ncmsh-2022-nos-certificados-de-origem.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/dificuldade-ao-emitir-certificado-de-origem-nao-preferencial-para-europa
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\dificuldade-ao-emitir-certificado-de-origem-nao-preferencial-para-europa.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/drawback-government-extends-the-term-for-fulfilling-the-export-commitment
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\drawback-government-extends-the-term-for-fulfilling-the-export-commitment.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/federal-government-consults-private-sector-on-new-export-process
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\federal-government-consults-private-sector-on-new-export-process.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/foreign-trade-technical-panel-in-foz-do-iguacu
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\foreign-trade-technical-panel-in-foz-do-iguacu.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/foreign-trade:-how-to-prepare-your-company-for-export
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\foreign-trade-how-to-prepare-your-company-for-export.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/governo-prorroga-prazo-de-regime-especial-de-drawback
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\governo-prorroga-prazo-de-regime-especial-de-drawback.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/habilitacoes-no-siscomex-passam-a-ser-validas-por-6-meses
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\habilitacoes-no-siscomex-passam-a-ser-validas-por-6-meses.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/mdic-modernizes-siscomex-import
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\mdic-modernizes-siscomex-import.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/mdic-simplifies-export-procedure
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\mdic-simplifies-export-procedure.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/monteiro:-export-is-the-way-to-the-resumption-of-economic-growth
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\monteiro-export-is-the-way-to-the-resumption-of-economic-growth.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/novidade-ficou-mais-facil-acessar-o-sistema-ippex
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\novidade-ficou-mais-facil-acessar-o-sistema-ippex.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/blog/small-companies-can-also-export
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\blog\small-companies-can-also-export.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/downloads
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\downloads.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/home
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\home.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/politica-de-privacidade
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\politica-de-privacidade.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/en/validator
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\en\validator.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/beneficios/certificado-de-origem
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\beneficios\certificado-de-origem.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/beneficios/declaracao-de-exclusividade
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\beneficios\declaracao-de-exclusividade.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/beneficios/declaracao-de-livre-venda
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\beneficios\declaracao-de-livre-venda.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/beneficios/internacionalizacao-de-empresas
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\beneficios\internacionalizacao-de-empresas.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/¿vas-a-exportar-entonces-necesitas-el-certificado-digital-de-origen
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\¿vas-a-exportar-entonces-necesitas-el-certificado-digital-de-origen.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/a-partir-de-8-de-abril-certificados-de-origem-para-exportacoes-com-destino-a-argentina-nao-poderao-mais-ser-em-papel
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\a-partir-de-8-de-abril-certificados-de-origem-para-exportacoes-com-destino-a-argentina-nao-poderao-mais-ser-em-papel.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/acordo-entre--mercosul-e-uniao-europeia-e-fechado
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\acordo-entre--mercosul-e-uniao-europeia-e-fechado.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/colombia-adotara-certificacao-de-origem-digital
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\colombia-adotara-certificacao-de-origem-digital.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/comercio-exterior:-¿como-preparar-a-su-empresa-para-la-exportacion
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\comercio-exterior-¿como-preparar-a-su-empresa-para-la-exportacion.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/como-aplicar-a-nova-versao-da-ncmsh-2022-nos-certificados-de-origem
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\como-aplicar-a-nova-versao-da-ncmsh-2022-nos-certificados-de-origem.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/dificuldade-ao-emitir-certificado-de-origem-nao-preferencial-para-europa
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\dificuldade-ao-emitir-certificado-de-origem-nao-preferencial-para-europa.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/drawback-el-gobierno-extende-el-plazo-para-cumplir-el-compromiso-de-exportacion
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\drawback-el-gobierno-extende-el-plazo-para-cumplir-el-compromiso-de-exportacion.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/gobierno-federal-consulta-sector-privado-sobre-nuevo-proceso-de-exportacion
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\gobierno-federal-consulta-sector-privado-sobre-nuevo-proceso-de-exportacion.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/governo-prorroga-prazo-de-regime-especial-de-drawback
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\governo-prorroga-prazo-de-regime-especial-de-drawback.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/habilitacoes-no-siscomex-passam-a-ser-validas-por-6-meses
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\habilitacoes-no-siscomex-passam-a-ser-validas-por-6-meses.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/las-pequeñas-empresas-tambien-pueden-exportar
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\las-pequeñas-empresas-tambien-pueden-exportar.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/mdic-moderniza-siscomex-importacion
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\mdic-moderniza-siscomex-importacion.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/mdic-simplifica-el-procedimiento-de-exportacion
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\mdic-simplifica-el-procedimiento-de-exportacion.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/monteiro:-la-exportacion-es-el-camino-para-la-reanudacion-del-crecimiento-economico
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\monteiro-la-exportacion-es-el-camino-para-la-reanudacion-del-crecimiento-economico.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/novidade-ficou-mais-facil-acessar-o-sistema-ippex
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\novidade-ficou-mais-facil-acessar-o-sistema-ippex.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/blog/panel-tecnico-de-comercio-exterior-en-foz-do-iguacu
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\blog\panel-tecnico-de-comercio-exterior-en-foz-do-iguacu.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/downloads
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\downloads.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/home
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\home.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/politica-de-privacidade
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\politica-de-privacidade.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/sobre
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\sobre.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/es/validator
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\es\validator.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/fonts/vendor/lightgallery/src/lg.svg?adb7aeef16adb8599e2d261b9a3a9f1e
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\fonts\vendor\lightgallery\src\lg.svg
+Content Type: image/svg+xml
+
+Uri: https://site.ippex.com.br/fonts/vendor/lightgallery/src/lg.ttf?a53dcc5ea47fe7d1d9fc881ff489f409
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\fonts\vendor\lightgallery\src\lg.ttf
+Content Type: application/x-font-ttf
+
+Uri: https://site.ippex.com.br/fonts/vendor/lightgallery/src/lg.woff?0add59587d07387b771f49d3f91a92af
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\fonts\vendor\lightgallery\src\lg.woff
+Content Type: application/font-woff
+
+Uri: https://site.ippex.com.br/images/brazil.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\brazil.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/images/england.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\england.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/images/favicon.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\favicon.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/images/fundo-contact.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\fundo-contact.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/images/fundo-dados-clientes.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\fundo-dados-clientes.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/images/fundo-section-vantagens.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\fundo-section-vantagens.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/images/logo.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\logo.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/images/seta.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\seta.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/images/spain.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\spain.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/images/vendor/lightgallery/src/loading.gif?fcba57cdb89652f9bb54271cc5a9cc0e
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\vendor\lightgallery\src\loading.gif
+Content Type: image/gif
+
+Uri: https://site.ippex.com.br/images/vendor/lightgallery/src/video-play.png?539c47b61bf24fb7ea0ca1953952a0e4
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\vendor\lightgallery\src\video-play.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/images/vendor/lightgallery/src/vimeo-play.png?6b92efbd0d64acd8b405e4fc4342305d
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\vendor\lightgallery\src\vimeo-play.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/images/vendor/lightgallery/src/youtube-play.png?50359884d4f563065161d9c7ea0ad585
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\images\vendor\lightgallery\src\youtube-play.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/pt/beneficios/certificado-de-origem
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\beneficios\certificado-de-origem.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/beneficios/declaracao-de-exclusividade
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\beneficios\declaracao-de-exclusividade.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/beneficios/declaracao-de-livre-venda
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\beneficios\declaracao-de-livre-venda.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/beneficios/internacionalizacao-de-empresas
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\beneficios\internacionalizacao-de-empresas.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/a-partir-do-dia-08-de-abril-certificados-de-origem-para-argentina-passam-a-ser-aceitos-somente-em-formato-digital
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\a-partir-do-dia-08-de-abril-certificados-de-origem-para-argentina-passam-a-ser-aceitos-somente-em-formato-digital.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/acordo-entre--mercosul-e-uniao-europeia-e-fechado
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\acordo-entre--mercosul-e-uniao-europeia-e-fechado.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/colombia-adotara-certificacao-de-origem-digital
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\colombia-adotara-certificacao-de-origem-digital.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/como-aplicar-a-nova-versao-da-ncmsh-2022-nos-certificados-de-origem
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\como-aplicar-a-nova-versao-da-ncmsh-2022-nos-certificados-de-origem.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/como-preparar-sua-empresa-para-exportar
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\como-preparar-sua-empresa-para-exportar.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/dificuldade-ao-emitir-certificado-de-origem-nao-preferencial-para-europa
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\dificuldade-ao-emitir-certificado-de-origem-nao-preferencial-para-europa.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/drawback--governo-estende-o-prazo-para-cumprimento-do-compromisso-de-exportacao
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\drawback--governo-estende-o-prazo-para-cumprimento-do-compromisso-de-exportacao.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/exportadores-dizem-que-receita-cobrara-iof-de-valores-vindos-do-exterior
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\exportadores-dizem-que-receita-cobrara-iof-de-valores-vindos-do-exterior.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/governo-prorroga-prazo-de-regime-especial-de-drawback
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\governo-prorroga-prazo-de-regime-especial-de-drawback.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/habilitacoes-no-siscomex-passam-a-ser-validas-por-6-meses
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\habilitacoes-no-siscomex-passam-a-ser-validas-por-6-meses.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/ippex-comeca-a-atender-importacoes-e-exportacoes
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\ippex-comeca-a-atender-importacoes-e-exportacoes.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/monteiro:-exportacao-e-o-caminho-para-a-retomada-do-crescimento-economico
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\monteiro-exportacao-e-o-caminho-para-a-retomada-do-crescimento-economico.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/novidade-ficou-mais-facil-acessar-o-sistema-ippex
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\novidade-ficou-mais-facil-acessar-o-sistema-ippex.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/novo-ministro-de-comercio-exterior-do-libano-e-brasileiro
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\novo-ministro-de-comercio-exterior-do-libano-e-brasileiro.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/o-que-se-estuda-em-comercio-exterior
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\o-que-se-estuda-em-comercio-exterior.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/pequenas-empresas-tambem-podem-exportar
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\pequenas-empresas-tambem-podem-exportar.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/blog/vai-exportar-entao-voce-precisa-do-certificado-de-origem-digital-cod
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\blog\vai-exportar-entao-voce-precisa-do-certificado-de-origem-digital-cod.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/downloads
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\downloads.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/home
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\home-2.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/politica-de-privacidade
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\politica-de-privacidade.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/sobre
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\sobre.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/pt/validator
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\pt\validator.html
+Content Type: text/html
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:48:36
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:24
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-1.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:25
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-2.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:26
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-3.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:27
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-4.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:28
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-5.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:30
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-6.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:31
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-7.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:32
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-8.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:33
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-9.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:34
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-10.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:48
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-11.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:49
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-12.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:50
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-13.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:49:51
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-14.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:27
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-15.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:32
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-16.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:33
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-17.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:34
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-18.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:35
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-19.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:36
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-20.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:47
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-21.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:48
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-22.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:49
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-23.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:50
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-24.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:51
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-25.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:52
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-26.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:53
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-27.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:54
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-28.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:55
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-29.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:56
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-30.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:51:57
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-31.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:00
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-32.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:01
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-33.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:02
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-34.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:03
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-35.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:04
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-36.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:05
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-37.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:06
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-38.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:07
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-39.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:08
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-40.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:09
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-41.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:10
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-42.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:11
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-43.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:21
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-44.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:22
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-45.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:23
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-46.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:24
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-47.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:52:25
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-48.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:54:26
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-49.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:54:27
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-50.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:54:28
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-51.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:54:29
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-52.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:54:30
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-53.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:54:37
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-54.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:54:38
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-55.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:54:39
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-56.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:54:40
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-57.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:54:41
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-58.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:54:42
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-59.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:55:11
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-60.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:55:12
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-61.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:55:13
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-62.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:55:14
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-63.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:55:15
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-64.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:55:24
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-65.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:55:25
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-66.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:55:26
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-67.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:55:27
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-68.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/css/app.css?v=2023-11-11 07:55:28
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\css\app-69.css
+Content Type: text/css
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:48:36
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:24
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-1.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:25
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-2.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:26
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-3.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:27
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-4.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:28
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-5.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:30
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-6.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:31
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-7.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:32
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-8.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:33
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-9.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:34
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-10.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:48
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-11.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:49
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-12.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:50
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-13.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:49:51
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-14.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:27
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-15.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:32
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-16.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:33
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-17.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:34
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-18.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:35
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-19.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:36
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-20.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:47
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-21.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:48
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-22.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:49
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-23.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:50
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-24.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:51
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-25.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:52
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-26.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:53
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-27.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:54
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-28.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:55
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-29.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:56
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-30.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:51:57
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-31.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:00
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-32.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:01
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-33.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:02
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-34.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:03
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-35.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:04
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-36.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:05
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-37.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:06
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-38.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:07
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-39.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:08
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-40.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:09
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-41.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:10
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-42.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:11
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-43.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:21
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-44.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:22
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-45.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:23
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-46.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:24
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-47.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:52:25
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-48.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:54:26
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-49.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:54:27
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-50.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:54:28
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-51.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:54:29
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-52.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:54:30
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-53.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:54:37
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-54.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:54:38
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-55.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:54:39
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-56.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:54:40
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-57.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:54:41
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-58.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:54:42
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-59.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:55:11
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-60.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:55:12
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-61.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:55:13
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-62.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:55:14
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-63.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:55:15
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-64.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:55:24
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-65.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:55:25
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-66.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:55:26
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-67.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:55:27
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-68.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/site/js/app.js?v=2023-11-11 07:55:28
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\site\js\app-69.js
+Content Type: application/x-javascript
+
+Uri: https://site.ippex.com.br/storage/banners/1.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\banners\1-2.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/benefits/1.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\benefits\1.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/benefits/3.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\benefits\3.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/benefits/4.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\benefits\4-2.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/benefits/5.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\benefits\5-2.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/blog/12.jpg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\12.jpg
+Content Type: image/jpeg
+
+Uri: https://site.ippex.com.br/storage/blog/14.jpg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\14.jpg
+Content Type: image/jpeg
+
+Uri: https://site.ippex.com.br/storage/blog/15.jpg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\15.jpg
+Content Type: image/jpeg
+
+Uri: https://site.ippex.com.br/storage/blog/17.jpg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\17.jpg
+Content Type: image/jpeg
+
+Uri: https://site.ippex.com.br/storage/blog/18.jpg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\18.jpg
+Content Type: image/jpeg
+
+Uri: https://site.ippex.com.br/storage/blog/20.jpg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\20.jpg
+Content Type: image/jpeg
+
+Uri: https://site.ippex.com.br/storage/blog/22.jpg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\22.jpg
+Content Type: image/jpeg
+
+Uri: https://site.ippex.com.br/storage/blog/23.jpg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\23.jpg
+Content Type: image/jpeg
+
+Uri: https://site.ippex.com.br/storage/blog/24.jpg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\24.jpg
+Content Type: image/jpeg
+
+Uri: https://site.ippex.com.br/storage/blog/25.jpg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\25.jpg
+Content Type: image/jpeg
+
+Uri: https://site.ippex.com.br/storage/blog/29.jpg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\29.jpg
+Content Type: image/jpeg
+
+Uri: https://site.ippex.com.br/storage/blog/30.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\30.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/blog/31.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\31.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/blog/32.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\32.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/blog/33.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\33.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/blog/34.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\34.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/blog/5.jpg
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\blog\5.jpg
+Content Type: image/jpeg
+
+Uri: https://site.ippex.com.br/storage/customers/5.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\customers\5.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/customers/6.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\customers\6.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/customers/7.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\customers\7.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/customers/8.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\customers\8.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/customers/9.png
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\customers\9.png
+Content Type: image/png
+
+Uri: https://site.ippex.com.br/storage/downloads/10.pdf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\downloads\10.pdf
+Content Type: application/pdf
+
+Uri: https://site.ippex.com.br/storage/downloads/2.pdf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\downloads\2.pdf
+Content Type: application/pdf
+
+Uri: https://site.ippex.com.br/storage/downloads/3.pdf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\downloads\3.pdf
+Content Type: application/pdf
+
+Uri: https://site.ippex.com.br/storage/downloads/5.doc
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\downloads\5.doc
+Content Type: application/msword
+
+Uri: https://site.ippex.com.br/storage/downloads/8.doc
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\storage\downloads\8.doc
+Content Type: application/msword
+
+Uri: https://www.faciap.org.br/ippex/manual_instalador.pdf
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\ippex\manual_instalador.pdf
+Content Type: application/pdf
+
+Uri: https://www.google.com/recaptcha/api.js?hl=en
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\recaptcha\api-1.js
+Content Type: text/javascript
+
+Uri: https://www.google.com/recaptcha/api.js?hl=es
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\recaptcha\api-2.js
+Content Type: text/javascript
+
+Uri: https://www.google.com/recaptcha/api.js?hl=pt
+File Name: C:\Downloaded Web Sites\site.ippex.com.br\recaptcha\api.js
+Content Type: text/javascript
+
